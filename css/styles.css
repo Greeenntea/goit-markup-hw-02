@@ -1,0 +1,90 @@
+ul,
+ol {
+  list-style-type: none;
+}
+.link,
+.logo {
+  text-decoration: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+button > span {
+  /* Button Text */
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.logo > span {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.menu-item {
+  /* Body Medium */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.contact {
+  /* Body */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.top-section {
+  background-color: #2e2f42;
+}
+h1 {
+  /* Header 1 */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+h3 {
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+p {
+  /* Body */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
